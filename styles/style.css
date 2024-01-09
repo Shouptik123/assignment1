@@ -1,0 +1,367 @@
+body {
+    max-width: 1250px;
+    margin: auto;
+    /* margin: 50px 140px;*/
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/*c0mm0n shared style*/
+
+.cmn-btn,
+.sub-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/*header style*/
+header {
+    background-image: url('../images/Banner\ Image.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner-ttl {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding-top: 200px;
+}
+
+#bnr-txt {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+/* main releted styles*/
+
+.offer-text {
+    /*offer section*/
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.offer-tag {
+    color: #F00;
+    text-align: center;
+    font-size: 20px;
+}
+
+.CATEGORIES {
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 13px;
+}
+
+.offer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+/*party style section*/
+
+.banner-2 {
+    padding-bottom: 100px;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 126px;
+    padding-left: 126px;
+    gap: 15px;
+}
+
+.container-2 {
+    background-image: url('../images/Vectorrr.png');
+    margin-top: 140px;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-right: auto;
+
+}
+
+.party {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.party-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.pix {
+    padding-left: 145px;
+    padding-bottom: 70px;
+}
+
+/* time n place*/
+.tms {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+
+h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.place {
+    background-color: #FF00000D;
+    width: auto;
+    height: 482px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+
+.cming-sn {
+    display: flex;
+    gap: 140px;
+    margin-top: 140px;
+}
+
+/* cming-sn styles*/
+
+#a {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#b {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#c {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;/
+}
+
+/* portfolio ssection*/
+
+.prfl-tag {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 115px;
+}
+
+.prfl-ttl {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.prfl-txt {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.prfi-img {
+    padding-bottom: 100px;
+}
+
+.prfl-img1,
+.prfl-img2 {
+    display: flex;
+    padding-bottom: 24px;
+    gap: 24px;
+}
+
+/*subscribe form*/
+
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    
+}
+
+.ltr-img {
+    position: relative;
+}
+
+.subs-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subs-text {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.subs-form form {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.subs-form form input {
+    flex-grow: 1;
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.sub-btn {
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.ltr-img {
+    padding-left: 585px;
+    padding-top: 80px;
+}
+
+/* f00ter styles*/
+
+.personal {
+    background-color: black;
+    width: 1600px;
+    height: 609px;
+   margin-top: 100px;
+
+}
+
+.address{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+.nmbr{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+.site{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */  
+}
+.cmn-tag{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.nsb{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.personal{
+    display: flex;
+    
+}
+
